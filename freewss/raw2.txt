@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Stylesheets-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;display=swap">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
+
+    <!--Editor Styles-->
+    <link rel="stylesheet" type="text/css"
+        href="https://prelaunch-paraclete.freewebsitesite.com/Templates/css/editor_pro.css">
+
+    <!--Scripts-->
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15/dist/smooth-scroll.polyfills.min.js"></script>
+    <!-- JQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
+
+    <title>Foodie's Corner</title>
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="/">Home </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#choice">Order Now</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#choice">Tutorials corner</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#grs">Groceries</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#tls">Tools</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact-us">conatct us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#ftr">on platforms</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- carousel -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="https://static.toiimg.com/photo/89946526.cms" alt="Indian Cousin">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="https://static.toiimg.com/photo/89946526.cms" alt="Chineese Cousin">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="https://static.toiimg.com/photo/89946526.cms" alt="Italian Cousin">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+
+    <!-- buttons -->
+    <div class="container my-5" id="choice">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <a href="#ind" class="btn btn-primary waves-effect waves-light">Indian</a>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <a href="#chn" class="btn btn-primary waves-effect waves-light">Chinese</a>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <a href="#itl" class="btn btn-primary waves-effect waves-light">Italian</a>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Indian -->
+    <h1 class="my-5" style="text-align : center;">Indian</h1>
+    <div class="container" id="ind">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://static.toiimg.com/photo/89946526.cms" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3>Food item 1</h3>
+                        <p class="card-text">Desciption about Dish</p>
+                        <a href="#" class="btn btn-primary waves-effect waves-light">Buy now @ 299</a>
+                        <a href="#" class="btn btn-primary waves-effect waves-light">Leran to cook</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://static.toiimg.com/photo/89946526.cms" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3>Food item 2</h3>
+                        <p class="card-text">Desciption about Dish</p>
+                        <a href="#" class="btn btn-primary waves-effect waves-light">Buy now @ 299</a>
+                        <a href="#" class="btn btn-primary waves-effect waves-light">Leran to cook</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://static.toiimg.com/photo/89946526.cms" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3>Food item 3</h3>
+                        <p class="card-text">Desciption about Dish</p>
+                        <a href="#" class="btn btn-primary waves-effect waves-light">Buy now @ 299</a>
+                        <a href="#" class="btn btn-primary waves-effect waves-light">Leran to cook</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://static.toiimg.com/photo/89946526.cms" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3>Food item 4</h3>
+                        <p class="card-text">Desciption about Dish</p>
+                        <a href="#" class="btn btn-primary waves-effect waves-light">Buy now @ 299</a>
+                        <a href="#" class="btn btn-primary waves-effect waves-light">Leran to cook</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://static.toiimg.com/photo/89946526.cms" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3>Food item 5</h3>
+                        <p class="card-text">Desciption about Dish</p>
+                        <a href="#" class="btn btn-primary waves-effect waves-light">Buy now @ 299</a>
+                        <a href="#" class="btn btn-primary waves-effect waves-light">Leran to cook</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://static.toiimg.com/photo/89946526.cms" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3>Food item 6</h3>
+                        <p class="card-text">Desciption about Dish</p>
+                        <a href="#" class="btn btn-primary waves-effect waves-light">Buy now @ 299</a>
+                        <a href="#" class="btn btn-primary waves-effect waves-light">Leran to cook</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Chineese -->
+    <h1 class="my-5" style="text-align : center;">Chineese</h1>
+    <div class="container" id="chn">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://static.toiimg.com/photo/89946526.cms" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3>Food item 1</h3>
+                        <p class="card-text">Desciption about Dish</p>
+                        <a href="#" class="btn btn-primary waves-effect waves-light">Buy now @ 299</a>
+                        <a href="#" class="btn btn-primary waves-effect waves-light">Leran to cook</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://static.toiimg.com/photo/89946526.cms" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3>Food item 2</h3>
+                        <p class="card-text">Desciption about Dish</p>
+                        <a href="#" class="btn btn-primary waves-effect waves-light">Buy now @ 299</a>
+                        <a href="#" class="btn btn-primary waves-effect waves-light">Leran to cook</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://static.toiimg.com/photo/89946526.cms" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3>Food item 3</h3>
+                        <p class="card-text">Desciption about Dish</p>
+                        <a href="#" class="btn btn-primary waves-effect waves-light">Buy now @ 299</a>
+                        <a href="#" class="btn btn-primary waves-effect waves-light">Leran to cook</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://static.toiimg.com/photo/89946526.cms" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3>Food item 4</h3>
+                        <p class="card-text">Desciption about Dish</p>
+                        <a href="#" class="btn btn-primary waves-effect waves-light">Buy now @ 299</a>
+                        <a href="#" class="btn btn-primary waves-effect waves-light">Leran to cook</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://static.toiimg.com/photo/89946526.cms" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3>Food item 5</h3>
+                        <p class="card-text">Desciption about Dish</p>
+                        <a href="#" class="btn btn-primary waves-effect waves-light">Buy now @ 299</a>
+                        <a href="#" class="btn btn-primary waves-effect waves-light">Leran to cook</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://static.toiimg.com/photo/89946526.cms" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3>Food item 6</h3>
+                        <p class="card-text">Desciption about Dish</p>
+                        <a href="#" class="btn btn-primary waves-effect waves-light">Buy now @ 299</a>
+                        <a href="#" class="btn btn-primary waves-effect waves-light">Leran to cook</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Italian -->
+    <h1 id="itl" class="my-5" style="text-align : center;">Italian</h1>
+    <div class="container" id="#choice">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://static.toiimg.com/photo/89946526.cms" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3>Food item 1</h3>
+                        <p class="card-text">Desciption about Dish</p>
+                        <a href="#" class="btn btn-primary waves-effect waves-light">Buy now @ 299</a>
+                        <a href="#" class="btn btn-primary waves-effect waves-light">Leran to cook</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://static.toiimg.com/photo/89946526.cms" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3>Food item 2</h3>
+                        <p class="card-text">Desciption about Dish</p>
+                        <a href="#" class="btn btn-primary waves-effect waves-light">Buy now @ 299</a>
+                        <a href="#" class="btn btn-primary waves-effect waves-light">Leran to cook</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://static.toiimg.com/photo/89946526.cms" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3>Food item 3</h3>
+                        <p class="card-text">Desciption about Dish</p>
+                        <a href="#" class="btn btn-primary waves-effect waves-light">Buy now @ 299</a>
+                        <a href="#" class="btn btn-primary waves-effect waves-light">Leran to cook</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://static.toiimg.com/photo/89946526.cms" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3>Food item 4</h3>
+                        <p class="card-text">Desciption about Dish</p>
+                        <a href="#" class="btn btn-primary waves-effect waves-light">Buy now @ 299</a>
+                        <a href="#" class="btn btn-primary waves-effect waves-light">Leran to cook</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://static.toiimg.com/photo/89946526.cms" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3>Food item 5</h3>
+                        <p class="card-text">Desciption about Dish</p>
+                        <a href="#" class="btn btn-primary waves-effect waves-light">Buy now @ 299</a>
+                        <a href="#" class="btn btn-primary waves-effect waves-light">Leran to cook</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://static.toiimg.com/photo/89946526.cms" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3>Food item 6</h3>
+                        <p class="card-text">Desciption about Dish</p>
+                        <a href="#" class="btn btn-primary waves-effect waves-light">Buy now @ 299</a>
+                        <a href="#" class="btn btn-primary waves-effect waves-light">Leran to cook</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- groceries -->
+    <h2 style="text-align : center;" class="my-5">Groceries</h2>
+    <div class="container" id="grs">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://images.theconversation.com/files/282104/original/file-20190701-105182-1q7a7ji.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3>Food item 1</h3>
+                        <p class="card-text">Desciption about Dish</p>
+                        <a href="#" class="btn btn-primary waves-effect waves-light">Buy now @ 299</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://images.theconversation.com/files/282104/original/file-20190701-105182-1q7a7ji.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3>Food item 2</h3>
+                        <p class="card-text">Desciption about Dish</p>
+                        <a href="#" class="btn btn-primary waves-effect waves-light">Buy now @ 299</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://images.theconversation.com/files/282104/original/file-20190701-105182-1q7a7ji.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3>Food item 3</h3>
+                        <p class="card-text">Desciption about Dish</p>
+                        <a href="#" class="btn btn-primary waves-effect waves-light">Buy now @ 299</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://images.theconversation.com/files/282104/original/file-20190701-105182-1q7a7ji.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3>Food item 4</h3>
+                        <p class="card-text">Desciption about Dish</p>
+                        <a href="#" class="btn btn-primary waves-effect waves-light">Buy now @ 299</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://images.theconversation.com/files/282104/original/file-20190701-105182-1q7a7ji.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3>Food item 5</h3>
+                        <p class="card-text">Desciption about Dish</p>
+                        <a href="#" class="btn btn-primary waves-effect waves-light">Buy now @ 299</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://images.theconversation.com/files/282104/original/file-20190701-105182-1q7a7ji.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3>Food item 6</h3>
+                        <p class="card-text">Desciption about Dish</p>
+                        <a href="#" class="btn btn-primary waves-effect waves-light">Buy now @ 299</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Tools -->
+    <h2 style="text-align : center;" class="my-5">Tools</h2>
+    <div class="container" id="tls">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://m.media-amazon.com/images/I/91Szfm7jy8L._AC_SL1500_.jpg" class="card-img-top"
+                        alt="...">
+                    <div class="card-body">
+                        <h3>Tool item 1</h3>
+                        <p class="card-text">Desciption about Tool</p>
+                        <a href="#" class="btn btn-primary waves-effect waves-light">Buy now @ 299</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://m.media-amazon.com/images/I/91Szfm7jy8L._AC_SL1500_.jpg" class="card-img-top"
+                        alt="...">
+                    <div class="card-body">
+                        <h3>Tool item 2</h3>
+                        <p class="card-text">Desciption about Tool</p>
+                        <a href="#" class="btn btn-primary waves-effect waves-light">Buy now @ 299</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://m.media-amazon.com/images/I/91Szfm7jy8L._AC_SL1500_.jpg" class="card-img-top"
+                        alt="...">
+                    <div class="card-body">
+                        <h3>Tool item 3</h3>
+                        <p class="card-text">Desciption about Dish</p>
+                        <a href="#" class="btn btn-primary waves-effect waves-light">Buy now @ 299</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 my-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://m.media-amazon.com/images/I/91Szfm7jy8L._AC_SL1500_.jpg" class="card-img-top"
+                        alt="...">
+                    <div class="card-body">
+                        <h3>Tool item 4</h3>
+                        <p class="card-text">Desciption about Dish</p>
+                        <a href="#" class="btn btn-primary waves-effect waves-light">Buy now @ 299</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12 my-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://m.media-amazon.com/images/I/91Szfm7jy8L._AC_SL1500_.jpg" class="card-img-top"
+                        alt="...">
+                    <div class="card-body">
+                        <h3>Tool item 5</h3>
+                        <p class="card-text">Desciption about Dish</p>
+                        <a href="#" class="btn btn-primary waves-effect waves-light">Buy now @ 299</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 my-3">
+                <div class="card " style="width: 18rem;">
+                    <img src="https://m.media-amazon.com/images/I/91Szfm7jy8L._AC_SL1500_.jpg" class="card-img-top"
+                        alt="...">
+                    <div class="card-body">
+                        <h3>Tool item 6</h3>
+                        <p class="card-text">Desciption about Dish</p>
+                        <a href="#" class="btn btn-primary waves-effect waves-light">Buy now @ 299</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- feedback form -->
+    <section id="contact-us" class="my-5">
+        <div class="contact-container container">
+            <div class="contact-img">
+                <img src="data:image/jpeg;base64,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"
+                    alt="">
+            </div>
+
+            <div class="form-container">
+                <h2>Get in touch</h2>
+                <form action="/" method="post">
+                    <input type="text" name="name" placeholder="Your Name">
+                    <input type="email" name="email" placeholder="E-Mail">
+                    <input type="number" name="mobno" placeholder="Mobile Number">
+                    <textarea cols="30" rows="6" placeholder="Type Your Message"></textarea>
+                    <a href="#" class="btn btn-primary waves-effect waves-light">Submit</a>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer section -->
+    <!-- Footer -->
+    <footer class="page-footer font-small cyan darken-3 my-5" id="ftr">
+
+        <!-- Footer Elements -->
+        <div class="container">
+
+            <!-- Grid row-->
+            <div class="row">
+
+                <!-- Grid column -->
+                <div class="col-md-12 py-5">
+                    <div class="mb-5 flex-center">
+
+                        <!-- Facebook -->
+                        <a class="fb-ic">
+                            <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                        </a>
+                        <!-- Twitter -->
+                        <a class="tw-ic">
+                            <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                        </a>
+                        <!-- Google +-->
+                        <a class="gplus-ic">
+                            <i class="fab fa-google-plus-g fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                        </a>
+                        <!--Linkedin -->
+                        <a class="li-ic">
+                            <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                        </a>
+                        <!--Instagram-->
+                        <a class="ins-ic">
+                            <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                        </a>
+                        <!--Pinterest-->
+                        <a class="pin-ic">
+                            <i class="fab fa-pinterest fa-lg white-text fa-2x"> </i>
+                        </a>
+                    </div>
+                </div>
+                <!-- Grid column -->
+
+            </div>
+            <!-- Grid row-->
+
+        </div>
+        <!-- Footer Elements -->
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2022 Copyright:
+            <a href="/"> Recipe Master</a>
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+</body>
+
+</html>
